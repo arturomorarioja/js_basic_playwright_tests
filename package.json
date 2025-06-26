@@ -1,0 +1,20 @@
+{
+  "name": "linkedin_course",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test:home": "npx playwright test home.spec.js",
+    "test:checkout": "npx playwright test checkout.spec.js",
+    "test:visualGen": "npx playwright test visual.spec.js --update-snapshots",
+    "test:visualNoGen": "npx playwright test visual.spec.js",
+    "test:api": "npx playwright test api.spec.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.53.1",
+    "@types/node": "^24.0.3"
+  }
+}
